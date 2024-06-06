@@ -1,6 +1,14 @@
+
+@include media-breakpoint-up(md){
+.titulo{
+    max-width: 2000px;
+}
+}
+
 main{
     margin-top: 15px;
 }
+
 
 h1{
     border: solid 5px;
@@ -17,13 +25,16 @@ h2{
     margin-bottom: 20px;
 }
 
+
 .cards{
     margin: 0 auto;
     padding: 25px;
     max-width: 1250px;
     background-color: rgb(38, 38, 41) ;
     display:flex;
+    border-radius: 10px;
 }
+
 
 .card{
     background-color: rgb(173, 215, 216);
@@ -33,6 +44,7 @@ h2{
     padding: 10px;
     max-width: 230px;
 }
+
 
 .card p{
     margin: 0 auto;
